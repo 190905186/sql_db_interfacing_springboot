@@ -1,0 +1,8 @@
+-   interpolation cannot contain assignments
+-   interpolations cannot be used to access the global variables
+-   through interpolation we can :
+    -   use the variables of the lass in the html
+    -   use the methods of the class in the html
+-   property binding is a technique through which we can assign the attribute of the html tags the desired value defined in the class.
+-   when we use angular the pages will not be reloded if we try to click any other link present in the page that stays on the same tab
+-   angular does not re-render every element again if there is a change to the single element in the page. only the elements which needs to be changed will be changed without affecting other elements.
