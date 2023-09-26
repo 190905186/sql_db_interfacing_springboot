@@ -1,0 +1,20 @@
+<div class="container w-75 mt-5">
+    <h1 class="text-white text-center">Registration</h1>
+    <form class="form-floating form mt-3">
+        <div class="row mb-1 form-group">
+            <label for="userName" class="form-label col-2 text-white ">UserName</label>
+            <input type="text" class="form-control" id="userName" name="userName" [(ngModel)]="registrationForm.userName">
+        </div>
+        <div class="row mb-1 form-group">
+            <label for="email" class="form-label text-white ">Email</label>
+            <input type="email" id="email" name="email" class="form-control  col-auto " [(ngModel)]="registrationForm.email">
+        </div>
+        <div class="row form-group">
+            <label for="password" class="form-label text-white ">Password</label>
+            <input type="password" id="password" name="password" class="form-control col-auto" [(ngModel)]="registrationForm.password">
+        </div>
+        <div class="text-center mt-5 form-group">
+            <button type="submit" class="btn-primary btn" (click)="registerUser()">Register</button>
+        </div>
+    </form>
+</div>

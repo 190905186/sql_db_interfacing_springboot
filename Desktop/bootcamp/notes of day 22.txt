@@ -1,0 +1,3 @@
+-	learnt about the observable, of , from in rxjs
+-	learnt about some things related to routing
+-	did some practise on the things in the Boot camp  day 19/clock/clockapp

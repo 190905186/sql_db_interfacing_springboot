@@ -1,0 +1,16 @@
+<div class="container mt-1  w-50 mt-5">
+    <h1 class="text-center text-white mb-4">Login Here</h1>
+    <form class="row g-5">
+        <div class="col-auto">
+          <label for="loginEmail" class="visually-hidden">Email</label>
+          <input type="email" class="form-control" id="loginEmail" name="loginEmail" [(ngModel)]="loginEmail">
+        </div>
+        <div class="col-auto">
+          <label for="loginPassword" class="visually-hidden">Password</label>
+          <input type="password" class="form-control" id="loginPassword" name="loginPassword" placeholder="Password" [(ngModel)]="loginPassword"> 
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary mb-3" (click)="onSubmit()">Login</button>
+        </div>
+    </form>
+</div>
